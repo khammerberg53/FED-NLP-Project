@@ -3,7 +3,7 @@ import os
 
 import pandas as pd
 
-txt_path = '/Users/kylehammerberg/finBERT-master/fed_texts'
+txt_path = 'path'
 print("Files and directories in the specified path:")
 
 dates = []
