@@ -30,7 +30,7 @@ for filename in os.listdir(txt_path):
         # getting the results from the BERT language model 
         result = predict(new_sen, model)
         
-        # preparing data and then gauging sentiment with less sophisticated NLP algorithm (allegedly)
+        # preparing data and then gauging sentiment with less sophisticated NLP algorithm 
         blob = TextBlob(new_sen)
         result['textblob_prediction'] = [sentence.sentiment.polarity for sentence in blob.sentences]
 
